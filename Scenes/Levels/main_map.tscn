@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://875nox81t6u2"]
+
+[ext_resource type="Texture2D" uid="uid://dr1nqa4km3sat" path="res://icon.svg" id="1_8uii8"]
+[ext_resource type="Script" path="res://Scenes/Scripts/PlayerBoat.gd" id="2_xj5si"]
+
+[node name="MainMap" type="Node2D"]
+
+[node name="PlayerBoat" type="Sprite2D" parent="."]
+position = Vector2(87, 84)
+texture = ExtResource("1_8uii8")
+script = ExtResource("2_xj5si")
